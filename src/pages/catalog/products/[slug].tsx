@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const AddToCartModal = dynamic(
     () => import('../../../components/AddToCartModal'),
-    { loading: () => <p>Loading...</p> }
+    { loading: () => <p>Loading...</p>, ssr: false }
 )
 
 export default function Product() {
