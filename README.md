@@ -9,3 +9,10 @@ $ npx json-server server.json -p 3333 -w
 ```
 $ npx json-server server.json -p 3333 -w -d 2000
 ```
+
+# Prismic
+
+## Website
+```
+https://prismic.io/
+```
