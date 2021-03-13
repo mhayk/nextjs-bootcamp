@@ -9,7 +9,7 @@ interface Top10Props {
     products: IProduct[]
 }
 
-export default function  Top10({ products }: Top10Props) {
+export default function Top10({ products }: Top10Props) {
     return (
         <div>
             <h1>Top 10</h1>
@@ -17,7 +17,7 @@ export default function  Top10({ products }: Top10Props) {
             <ul>
                 {products.map(product => {
                     return (
-                    <li key={product.id}>{product.title}</li>
+                        <li key={product.id}>{product.title}</li>
                     )
                 })}
             </ul>
